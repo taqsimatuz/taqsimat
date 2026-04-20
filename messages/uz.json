@@ -1,0 +1,16 @@
+{
+  "app": {
+    "name": "Taqsimat",
+    "tagline": "Musulmonlar uchun neytral moliyaviy platforma."
+  },
+  "nav": {
+    "balanceSheet": "Balans",
+    "zakat": "Zakot",
+    "meras": "Meros",
+    "investments": "Investitsiyalar",
+    "advisor": "Fin Advisor"
+  },
+  "common": {
+    "comingSoon": "Tez orada"
+  }
+}

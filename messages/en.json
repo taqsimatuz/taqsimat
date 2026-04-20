@@ -1,0 +1,16 @@
+{
+  "app": {
+    "name": "Taqsimat",
+    "tagline": "A neutral financial platform for Muslims."
+  },
+  "nav": {
+    "balanceSheet": "Balance sheet",
+    "zakat": "Zakat",
+    "meras": "Meras",
+    "investments": "Investments",
+    "advisor": "Fin Advisor"
+  },
+  "common": {
+    "comingSoon": "Coming soon"
+  }
+}
