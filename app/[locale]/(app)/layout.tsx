@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { setRequestLocale } from 'next-intl/server';
 import { AppHeader } from '@/components/app-header';
 import { AppNav } from '@/components/app-nav';
+import { GuestInit } from '@/components/guest-init';
 import { getCurrentUser } from '@/lib/supabase/session';
 
 export default async function AppLayout({
@@ -18,6 +19,8 @@ export default async function AppLayout({
 
   return (
     <div className="flex min-h-screen flex-col">
+      {/* Silently creates an anonymous session for unauthenticated visitors */}
+      {!user && <GuestInit locale={locale} />}
       <AppHeader user={user} />
       <div className="border-b bg-background">
         <div className="container max-w-screen-xl px-4 sm:px-6">
