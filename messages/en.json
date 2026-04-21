@@ -17,7 +17,24 @@
     "signOut": "Sign out",
     "continueAsGuest": "Continue as guest",
     "myAccount": "My account",
-    "settings": "Settings"
+    "settings": "Settings",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset password",
+    "sendResetLink": "Send reset link",
+    "checkEmail": "Check your email",
+    "checkEmailDesc": "We've sent a password reset link to your email address.",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "verifyEmailTitle": "Verify your email",
+    "verifyEmailDesc": "We've sent a verification link to {email}. Please check your inbox and click the link to activate your account.",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "At least 8 characters",
+    "signingIn": "Signing in...",
+    "signingUp": "Creating account...",
+    "sendingReset": "Sending...",
+    "orContinueAs": "or"
   },
   "marketing": {
     "hero": {

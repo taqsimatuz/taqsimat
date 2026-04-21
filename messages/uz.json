@@ -17,7 +17,24 @@
     "signOut": "Chiqish",
     "continueAsGuest": "Mehmon sifatida davom etish",
     "myAccount": "Mening hisobim",
-    "settings": "Sozlamalar"
+    "settings": "Sozlamalar",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "resetPassword": "Parolni tiklash",
+    "sendResetLink": "Havola yuborish",
+    "checkEmail": "Pochtangizni tekshiring",
+    "checkEmailDesc": "Biz sizning elektron pochta manzilingizga parolni tiklash havolasini yubordik.",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "hasAccount": "Allaqachon hisobingiz bormi?",
+    "verifyEmailTitle": "Elektron pochtangizni tasdiqlang",
+    "verifyEmailDesc": "{email} manziliga tasdiqlash havolasi yuborildi. Iltimos, kirish qutingizni tekshiring va hisobingizni faollashtirish uchun havolani bosing.",
+    "emailPlaceholder": "siz@misol.com",
+    "passwordPlaceholder": "Kamida 8 ta belgi",
+    "signingIn": "Kirilmoqda...",
+    "signingUp": "Hisob yaratilmoqda...",
+    "sendingReset": "Yuborilmoqda...",
+    "orContinueAs": "yoki"
   },
   "marketing": {
     "hero": {
