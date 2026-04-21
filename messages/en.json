@@ -4,13 +4,68 @@
     "tagline": "A neutral financial platform for Muslims."
   },
   "nav": {
-    "balanceSheet": "Balance sheet",
+    "balanceSheet": "Balance Sheet",
     "zakat": "Zakat",
     "meras": "Meras",
     "investments": "Investments",
-    "advisor": "Fin Advisor"
+    "advisor": "Fin Advisor",
+    "courses": "Courses"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "continueAsGuest": "Continue as guest",
+    "myAccount": "My account",
+    "settings": "Settings"
+  },
+  "marketing": {
+    "hero": {
+      "title": "Your Islamic Financial Companion",
+      "subtitle": "Track your wealth, calculate zakat, plan inheritance, and discover halal investment options — all in one place.",
+      "cta": "Get started",
+      "ctaGuest": "Explore without signing up"
+    },
+    "features": {
+      "balanceSheet": {
+        "title": "Balance Sheet",
+        "description": "See your complete financial picture — assets, liabilities, net worth, and halal/haram split."
+      },
+      "zakat": {
+        "title": "Zakat Calculator",
+        "description": "Calculate your annual zakat obligation accurately with current nisab values."
+      },
+      "meras": {
+        "title": "Meras (Inheritance)",
+        "description": "Distribute your estate according to Hanafi fiqh with a step-by-step guided wizard."
+      },
+      "investments": {
+        "title": "Halal Investments",
+        "description": "Browse Shariah-screened investment options across asset classes."
+      },
+      "advisor": {
+        "title": "Fin Advisor",
+        "description": "Ask questions about Islamic finance and get grounded, scholar-reviewed guidance."
+      }
+    }
   },
   "common": {
-    "comingSoon": "Coming soon"
+    "comingSoon": "Coming soon",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "uz": "O'zbek"
   }
 }

@@ -8,9 +8,64 @@
     "zakat": "Zakot",
     "meras": "Meros",
     "investments": "Investitsiyalar",
-    "advisor": "Fin Advisor"
+    "advisor": "Fin Advisor",
+    "courses": "Darslar"
+  },
+  "auth": {
+    "signIn": "Kirish",
+    "signUp": "Ro'yxatdan o'tish",
+    "signOut": "Chiqish",
+    "continueAsGuest": "Mehmon sifatida davom etish",
+    "myAccount": "Mening hisobim",
+    "settings": "Sozlamalar"
+  },
+  "marketing": {
+    "hero": {
+      "title": "Islomiy moliyaviy hamkoringiz",
+      "subtitle": "Boyligingizni kuzating, zakoatingizni hisoblang, merosni rejalashtiring va halol investitsiya imkoniyatlarini toping — barchasi bir joyda.",
+      "cta": "Boshlash",
+      "ctaGuest": "Ro'yxatdan o'tmasdan ko'rish"
+    },
+    "features": {
+      "balanceSheet": {
+        "title": "Balans hisobi",
+        "description": "To'liq moliyaviy rasmingizni ko'ring — aktivlar, passivlar, sof qiymat va halol/harom taqsimoti."
+      },
+      "zakat": {
+        "title": "Zakot kalkulyatori",
+        "description": "Joriy nisob qiymatlari bilan yillik zakot majburiyatingizni aniq hisoblang."
+      },
+      "meras": {
+        "title": "Meros",
+        "description": "Mulkingizni Hanafiy fiqhiga muvofiq bosqichma-bosqich yo'riqnoma orqali taqsimlang."
+      },
+      "investments": {
+        "title": "Halol investitsiyalar",
+        "description": "Turli aktivlar bo'yicha shariatga mos investitsiya imkoniyatlarini ko'rib chiqing."
+      },
+      "advisor": {
+        "title": "Fin Advisor",
+        "description": "Islomiy moliya haqida savollar bering va olimlar tomonidan tasdiqlangan javoblar oling."
+      }
+    }
   },
   "common": {
-    "comingSoon": "Tez orada"
+    "comingSoon": "Tez orada",
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "retry": "Qayta urinib ko'ring",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "close": "Yopish",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "submit": "Yuborish"
+  },
+  "localeSwitcher": {
+    "label": "Til",
+    "en": "English",
+    "uz": "O'zbek"
   }
 }
