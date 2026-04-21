@@ -117,20 +117,29 @@ Build in this order regardless of calendar. Each step unblocks the next:
 
 <!-- Update this section as you go. Example format below. -->
 
-**Phase:** Pre-build — specs complete, nothing written yet.
+**Phase:** Build step 1–2 complete (infrastructure + balance sheet logic). Zakat logic done.
 
 **Done:**
 - Product definition finalized (v2)
 - One-page PRDs for all 6 modules
 - MVP architecture with Supabase schema and Meras algorithm spec
+- Next.js 15 scaffold: App Router, TypeScript strict, Tailwind v3, shadcn/ui config, next-intl v4 (en + uz URL routing), Supabase clients (browser/server/admin)
+- Folder structure from architecture §1: all route shells and lib/ directories
+- `lib/types/` — core domain types + Zod schemas: Asset (with per-category metadata), Liability, FamilyMember, Profile, Money/FX helpers
+- `lib/balance-sheet/diagnostics.ts` — pure functions (net worth, liquid total, composition breakdown, zakat eligibility, halal/haram split) with FX conversion. 20 tests passing.
+- `lib/zakat/nisab.ts` — computeNisab (gold 87.48g / silver 612.36g, lower wins). 5 tests.
+- `lib/zakat/calculate.ts` — calculateZakat with per-asset treatment, short-term debt deduction, nisab comparison, 2.5% rate. 8 tests.
+- `supabase/migrations/0001_initial_schema.sql` — full schema §3 (all tables, indexes, updated_at triggers, RLS enabled + all policies). Ready to apply to a Supabase project.
 
 **In progress:**
-- (nothing yet)
+- (nothing)
 
 **Next up:**
-- Set up Supabase project and Next.js scaffold via Lovable
-- Apply schema from `docs/03-architecture.md` §3 to Supabase
-- Implement auth with guest mode
+- Create Supabase project and apply migration
+- Implement auth with guest mode (anonymous session → convert flow per §5)
+- `lib/meras/` — hand-coded Hanafi algorithm with 25+ canonical test cases (§4.3). **Highest-risk module — schedule dedicated time.**
+- Wire up Supabase Edge Functions: CBU FX rate fetch, zakat hawl reminder (§8)
+- Lovable: balance sheet UI, zakat UI, meras wizard (reads from lib/meras/)
 
 ---
 
