@@ -2,9 +2,10 @@ import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { LocaleSwitcher } from '@/components/locale-switcher';
 import { UserMenu } from '@/components/user-menu';
+import type { User } from '@supabase/supabase-js';
 
 interface AppHeaderProps {
-  user?: { email?: string | null } | null;
+  user?: User | null;
 }
 
 export function AppHeader({ user }: AppHeaderProps) {
